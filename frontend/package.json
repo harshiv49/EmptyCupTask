@@ -1,0 +1,29 @@
+{
+  "name": "emptycuptask",
+  "version": "1.0.0",
+  "description": "this is the frontend written primarily in tailwind and React",
+  "scripts": {
+    "test": "jest",
+    "start": "npx parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshiv49/EmptyCupTask.git"
+  },
+  "author": "harshiv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshiv49/EmptyCupTask/issues"
+  },
+  "homepage": "https://github.com/harshiv49/EmptyCupTask#readme",
+  "dependencies": {
+    "parcel": "^2.10.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.31",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.3.5"
+  }
+}

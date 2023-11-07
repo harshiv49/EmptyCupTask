@@ -1,0 +1,6 @@
+node_modules/
+.parcel-cache/
+dist/
+db.sqlite3
+__pycache__
+assets
