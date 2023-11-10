@@ -9,7 +9,7 @@ class DesignInstitution(models.Model):
     phone_number_2=models.CharField(max_length=14)
     price=models.DecimalField(max_digits=10,decimal_places=2,null=True)
     years_of_experience = models.IntegerField(validators=[MaxValueValidator(100)])
-    
+    no_of_projects=models.IntegerField(null=True,blank=True)
     def __str__(self) :
         return self.name
 
